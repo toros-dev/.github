@@ -33,7 +33,7 @@ In parallel with toros, the team develops complementary infrastructure such as e
 ## Developers
 
 ### Nikhil Sunder
-<img src="https://media.licdn.com/dms/image/v2/D4E03AQGj5eJbCqfdkg/profile-displayphoto-scale_400_400/B4EZx3qDoLIkAg-/0/1771534042442?e=1778716800&v=beta&t=NOdAV_5NuKvTocFfgn7-8Tke9GLdMYcBzzN0XWjUBb4" width="150" alt="Profile Photo">\
+<img src="https://github.com/toros-dev/.github/blob/338420e9fb1ba91ca0b431b39dbdd300e82bdc23/profile/assets/1771534042338.png" width="150" alt="Profile Photo">\
 **Undergraduate Researcher @ The University of Miami, Herbert Business School**
 
 - **Role:**  
@@ -56,7 +56,7 @@ In parallel with toros, the team develops complementary infrastructure such as e
 ---
 
 ### John Bernardin
-<img src="https://media.licdn.com/dms/image/v2/C4E03AQEmMG59m-syzQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1651668154585?e=1778716800&v=beta&t=YzupaZqCNEdjDzl9_4fHdWqbgx5FVnjT8yT9rK-YD4Y" width="150" alt="Profile Photo">\
+<img src="https://github.com/toros-dev/.github/blob/338420e9fb1ba91ca0b431b39dbdd300e82bdc23/profile/assets/1651668154585.jpeg" width="150" alt="Profile Photo">\
 **Generative AI Engineer @ Air Products**
 
 - **Role:**  
@@ -75,7 +75,7 @@ In parallel with toros, the team develops complementary infrastructure such as e
 ---
 
 ### Rayhan Rahman
-<img src="https://media.licdn.com/dms/image/v2/C4D03AQEQyQwQTkS8uQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1611510883839?e=1778716800&v=beta&t=fmEAY_ZVOc0w2xFLXpA4ovEzihK9Zdh9H3JGtnijOL8" width="150" alt="Profile Photo">\
+<img src="https://github.com/toros-dev/.github/blob/338420e9fb1ba91ca0b431b39dbdd300e82bdc23/profile/assets/1611510883839.jpeg" width="150" alt="Profile Photo">\
 **Software Engineer II @ Vanguard**
 
 - **Role:**  
