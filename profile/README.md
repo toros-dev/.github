@@ -1,14 +1,14 @@
-# edgar-sec-dev-team
+# toros-dev
 
 ---
 
 ## Overview
 
-The **edgar-sec-dev-team** is a research-oriented engineering group focused on building high-quality, open-source infrastructure for financial data acquisition, transformation, and analysis.
+The **toros-dev** is a research-oriented engineering group focused on building high-quality, open-source infrastructure for financial data acquisition, transformation, and analysis.
 
 The organization’s primary objective is to develop **reliable, reproducible, and model-ready data systems** for working with U.S. Securities and Exchange Commission (SEC) EDGAR filings. This includes tooling for structured data extraction, XBRL parsing, and the reconstruction of consistent financial time series across filings, companies, and reporting regimes.
 
-The flagship project, **edgar-sec**, is designed as a modular Python toolkit that abstracts the complexity of EDGAR’s raw data formats and provides a clean, extensible interface for researchers, developers, and quantitative analysts. The system emphasizes:
+The flagship project, **toros**, is designed as a modular Python toolkit that abstracts the complexity of XBRL data formats and provides a clean, extensible dataframe interface for researchers, developers, and quantitative analysts. The system emphasizes:
 
 * Deterministic data pipelines and reproducibility
 * Robust API and SDK design
@@ -18,15 +18,15 @@ The flagship project, **edgar-sec**, is designed as a modular Python toolkit tha
 
 The broader development philosophy aligns with **research-grade software engineering**, combining principles from econometrics, machine learning, and systems design to produce tools suitable for both academic research and production-grade analytics.
 
-In parallel with edgar-sec, the team develops complementary infrastructure such as fedfred, which provides access to macroeconomic data from FRED/ALFRED/GeoFRED/FRASER. Together, these tools form a unified ecosystem for macro–micro financial data integration, enabling end-to-end workflows from raw data ingestion to model-ready datasets.
+In parallel with toros, the team develops complementary infrastructure such as edgar-sec, which provides access to financial data from SEC EDGAR API. Together, these tools form a unified ecosystem for financial data integration, enabling end-to-end workflows from raw data ingestion to model-ready datasets.
 
 ---
 
 ## Projects
 
-[![edgar-sec](https://github-readme-stats.vercel.app/api/pin/?username=edgar-sec-dev-team&repo=edgar-sec)](https://github.com/edgar-sec-dev-team/edgar-sec) [![unnamed-package-alpha](https://github-readme-stats.vercel.app/api/pin/?username=edgar-sec-dev-team&repo=unnamed-package-alpha)](https://github.com/edgar-sec-dev-team/unnamed-package-alpha)
+[![edgar-sec](https://github-readme-stats.vercel.app/api/pin/?username=toros-dev&repo=edgar-sec)](https://github.com/toros-dev/edgar-sec)
 
-[![unnamed-package-beta](https://github-readme-stats.vercel.app/api/pin/?username=edgar-sec-dev-team&repo=unnamed-package-beta)](https://github.com/edgar-sec-dev-team/unnamed-package-beta) [![unnamed-package-gamma](https://github-readme-stats.vercel.app/api/pin/?username=edgar-sec-dev-team&repo=unnamed-package-gamma)](https://github.com/edgar-sec-dev-team/unnamed-package-gamma)
+[![toros](https://github-readme-stats.vercel.app/api/pin/?username=toros-dev&repo=toros)](https://github.com/toros-dev/toros)
 
 ---
 
@@ -48,6 +48,7 @@ In parallel with edgar-sec, the team develops complementary infrastructure such 
 
 - **Featured Work:**  
   - [`fedfred`](https://github.com/nikhilxsunder/fedfred) — A feature-rich python package for interacting with the Federal Reserve Bank of St. Louis Economic Database: FRED.
+  - [`cultivars`](https://github.com/nikhilxsunder/fedfred) - A modern computing library in python for providing vector autoregressions and other autoregressive economic models.
 
 - **Research:**  
   - ORCID: https://orcid.org/0009-0007-3323-1760
