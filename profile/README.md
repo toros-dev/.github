@@ -4,11 +4,11 @@
 
 ## Overview
 
-The **toros-dev** is a research-oriented engineering group focused on building high-quality, open-source infrastructure for financial data acquisition, transformation, and analysis.
+**toros-dev** is a research-oriented engineering group focused on building high-quality, open-source infrastructure for financial data acquisition, transformation, and analysis.
 
-The organization’s primary objective is to develop **reliable, reproducible, and model-ready data systems** for working with U.S. Securities and Exchange Commission (SEC) EDGAR filings. This includes tooling for structured data extraction, XBRL parsing, and the reconstruction of consistent financial time series across filings, companies, and reporting regimes.
+The organization's primary objective is to develop **reliable, reproducible, and model-ready data systems** that turn heterogeneous financial disclosures into consistent, analyzable structures — covering structured data extraction, XBRL parsing, and the reconstruction of financial time series across filings, companies, and reporting regimes.
 
-The flagship project, **toros**, is designed as a modular Python toolkit that abstracts the complexity of XBRL data formats and provides a clean, extensible dataframe interface for researchers, developers, and quantitative analysts. The system emphasizes:
+The flagship project, **toros**, is a modular Python toolkit that represents complex financial objects as first-class typed structures on top of a clean, extensible dataframe interface. It abstracts the complexity of XBRL and related disclosure formats, giving researchers, developers, and quantitative analysts a stable representation layer to compute on rather than a pile of nested filing data. The system emphasizes:
 
 * Deterministic data pipelines and reproducibility
 * Robust API and SDK design
@@ -16,9 +16,9 @@ The flagship project, **toros**, is designed as a modular Python toolkit that ab
 * Time-series reconstruction from financial disclosures
 * Integration with modern data workflows (pandas, polars, dask)
 
-The broader development philosophy aligns with **research-grade software engineering**, combining principles from econometrics, machine learning, and systems design to produce tools suitable for both academic research and production-grade analytics.
+Surrounding toros is a set of source-specific acquisition libraries, beginning with **edgar-sec**, a client for the U.S. Securities and Exchange Commission (SEC) EDGAR API. edgar-sec handles retrieval, rate limiting, and parsing of SEC filings; toros handles what those filings become. Together they form an end-to-end path from raw ingestion to model-ready datasets, with the same pattern extensible to additional data sources.
 
-In parallel with toros, the team develops complementary infrastructure such as edgar-sec, which provides access to financial data from SEC EDGAR API. Together, these tools form a unified ecosystem for financial data integration, enabling end-to-end workflows from raw data ingestion to model-ready datasets.
+The broader development philosophy aligns with **research-grade software engineering**, combining principles from econometrics, machine learning, and systems design to produce tools suitable for both academic research and production-grade analytics.
 
 ---
 
