@@ -1,112 +1,102 @@
-# toros-dev
+<h1 align="center">toros-dev</h1>
+<h3 align="center">Open-Source Infrastructure for Financial Data</h3>
+<p align="center">
+  <a href="https://github.com/toros-dev/toros"><img src="https://img.shields.io/badge/toros-in%20development-orange?style=flat" alt="toros"></a>
+  <a href="https://pypi.org/project/edgar-sec/"><img src="https://img.shields.io/pypi/v/edgar-sec.svg?style=flat&label=edgar-sec" alt="edgar-sec on PyPI"></a>
+  <a href="https://pepy.tech/projects/edgar-sec"><img src="https://static.pepy.tech/badge/edgar-sec" alt="edgar-sec downloads"></a>
+</p>
 
 ---
 
-## Overview
+**toros-dev** is a research-oriented engineering group building open-source infrastructure for financial data acquisition, representation, and analysis.
 
-**toros-dev** is a research-oriented engineering group focused on building high-quality, open-source infrastructure for financial data acquisition, transformation, and analysis.
+Financial disclosure data is public, structured in principle, and nearly unusable in practice. Comparable facts sit buried under inconsistent XBRL taxonomies, reporting regimes shift across filings and companies, and most research code that touches this data is written once per paper and thrown away. We build the alternative: installable, typed, tested, documented packages that turn heterogeneous disclosures into reliable, reproducible, model-ready structures — a stable representation layer to compute on rather than a pile of nested filing data.
 
-The organization's primary objective is to develop **reliable, reproducible, and model-ready data systems** that turn heterogeneous financial disclosures into consistent, analyzable structures — covering structured data extraction, XBRL parsing, and the reconstruction of financial time series across filings, companies, and reporting regimes.
+The stack separates concerns by layer. **Acquisition** libraries handle retrieval, rate limiting, and parsing from primary sources; **representation** gives that data enforced semantics. The flagship, **toros**, represents complex financial objects as first-class typed structures on a clean, extensible dataframe interface (pandas, polars, dask), with cross-filing normalization, entity resolution, and time-series reconstruction built in. **edgar-sec** feeds it from SEC EDGAR, and the same pattern extends to additional sources.
 
-The flagship project, **toros**, is a modular Python toolkit that represents complex financial objects as first-class typed structures on top of a clean, extensible dataframe interface. It abstracts the complexity of XBRL and related disclosure formats, giving researchers, developers, and quantitative analysts a stable representation layer to compute on rather than a pile of nested filing data. The system emphasizes:
+### The stack
 
-* Deterministic data pipelines and reproducibility
-* Robust API and SDK design
-* Cross-filing normalization and entity resolution
-* Time-series reconstruction from financial disclosures
-* Integration with modern data workflows (pandas, polars, dask)
+| Layer | Project | | Status |
+|---|---|---|---|
+| Acquisition | **[edgar-sec](https://github.com/toros-dev/edgar-sec)** | SEC EDGAR REST API client | [![PyPI](https://img.shields.io/pypi/v/edgar-sec.svg?label=)](https://pypi.org/project/edgar-sec/) [![Downloads](https://static.pepy.tech/badge/edgar-sec)](https://pepy.tech/projects/edgar-sec) |
+| Representation | **[toros](https://github.com/toros-dev/toros)** | Self-validating financial DataFrames | ![In development](https://img.shields.io/badge/-in%20development-orange.svg) |
 
-Surrounding toros is a set of source-specific acquisition libraries, beginning with **edgar-sec**, a client for the U.S. Securities and Exchange Commission (SEC) EDGAR API. edgar-sec handles retrieval, rate limiting, and parsing of SEC filings; toros handles what those filings become. Together they form an end-to-end path from raw ingestion to model-ready datasets, with the same pattern extensible to additional data sources.
+### How we build
 
-The broader development philosophy aligns with **research-grade software engineering**, combining principles from econometrics, machine learning, and systems design to produce tools suitable for both academic research and production-grade analytics.
+**Correctness over convenience.** Full type annotations, `mypy`-clean, explicit key-existence checks, specific exception classes, no silent failure. If a response shape is wrong, the library says so rather than returning `None`.
 
----
+**Sync and async as first-class peers.** Strict parity between clients — the async surface is never a second-class citizen with missing endpoints.
 
-## Projects
+**Reproducibility as a deliverable.** OpenSSF Best Practices, Codecov coverage gates, conda-forge distribution alongside PyPI, and DOI-archived releases, so a paper can cite an exact version that will still resolve in ten years.
 
-[![edgar-sec](https://github-readme-stats.vercel.app/api/pin/?username=toros-dev&repo=edgar-sec)](https://github.com/toros-dev/edgar-sec)
-
-[![toros](https://github-readme-stats.vercel.app/api/pin/?username=toros-dev&repo=toros)](https://github.com/toros-dev/toros)
+**Design before code.** Every package starts as a specification argument — what the public surface should be, what belongs in private internals, where the layer boundaries fall — before any implementation exists.
 
 ---
 
-## Developers
+## Team
 
 ### Nikhil Sunder
-<img src="https://github.com/toros-dev/.github/blob/338420e9fb1ba91ca0b431b39dbdd300e82bdc23/profile/assets/1771534042338.png" width="150" alt="Profile Photo">\
-**Undergraduate Researcher @ The University of Miami, Herbert Business School**
 
-- **Role:**  
-  Founder & Lead Developer
+<img src="https://raw.githubusercontent.com/toros-dev/.github/main/profile/assets/1771534042338.png" width="150" alt="Nikhil Sunder">
 
-- **Focus:**
-  Data Engineering, Design & Architecture
+**Founder & Lead Developer** · Data Engineering, Design & Architecture
 
-- **Education & Experience:**  
-  - BSBA Quantitative Economics, BSBA Finance (Minor in Mathematics) — University of Miami Herbert Business School  
-  - Research Fellow — Intelligent Computer Systems Research Institute (ICSRI) @ University of Miami Herbert Business School
+Undergraduate researcher at the University of Miami Herbert Business School, working on state-space models, spectral decomposition, and reinforcement learning for monetary policy. Sets the architecture for the stack and maintains its acquisition and modeling ends.
 
-- **Featured Work:**  
-  - [`fedfred`](https://github.com/nikhilxsunder/fedfred) — A feature-rich python package for interacting with the Federal Reserve Bank of St. Louis Economic Database: FRED.
-  - [`cultivars`](https://github.com/nikhilxsunder/fedfred) - A modern computing library in python for providing vector autoregressions and other autoregressive economic models.
-
-- **Research:**  
-  - ORCID: https://orcid.org/0009-0007-3323-1760
+- BSBA Quantitative Economics, BSBA Finance (Minor in Mathematics) — University of Miami, Herbert Business School
+- Research Fellow — Intelligent Computer Systems Research Institute (ICSRI), University of Miami
+- Author of [`fedfred`](https://github.com/nikhilxsunder/fedfred) and [`cultivars`](https://github.com/nikhilxsunder/cultivars)
+- ORCID: [0009-0007-3323-1760](https://orcid.org/0009-0007-3323-1760)
 
 ---
 
 ### John Bernardin
-<img src="https://github.com/toros-dev/.github/blob/338420e9fb1ba91ca0b431b39dbdd300e82bdc23/profile/assets/1651668154585.jpeg" width="150" alt="Profile Photo">\
-**Generative AI Engineer @ Air Products**
 
-- **Role:**  
-  Developer & Researcher
+<img src="https://raw.githubusercontent.com/toros-dev/.github/main/profile/assets/1651668154585.jpeg" width="150" alt="John Bernardin">
 
-- **Focus:**  
-  Machine learning & Data Engineering
+**Developer & Researcher** · Machine Learning & Data Engineering
 
-- **Education & Experience:**   
-  - MS Artificial Intelligence and Innovation - Carnegie Mellon University
-  - BS Applied Mathematics, BS Computer Science - Temple University
-  - Research Assistant - Human-Computer Interaction Lab (HCI) @ Temple University
-  - Generative AI Engineer - Air Products
-  - AI Engineer - PS Technology
+Generative AI Engineer at Air Products.
+
+- MS Artificial Intelligence and Innovation — Carnegie Mellon University
+- BS Applied Mathematics, BS Computer Science — Temple University
+- Previously: Research Assistant, Human-Computer Interaction Lab @ Temple University · AI Engineer, PS Technology
 
 ---
 
 ### Rayhan Rahman
-<img src="https://github.com/toros-dev/.github/blob/338420e9fb1ba91ca0b431b39dbdd300e82bdc23/profile/assets/1611510883839.jpeg" width="150" alt="Profile Photo">\
-**Software Engineer II @ Vanguard**
 
-- **Role:**  
-  Developer & Researcher
+<img src="https://raw.githubusercontent.com/toros-dev/.github/main/profile/assets/1611510883839.jpeg" width="150" alt="Rayhan Rahman">
 
-- **Focus:**  
-  API Design & Development
+**Developer & Researcher** · API Design & Development
 
-- **Education & Experience:**  
-  - BS Computer Engineering (Minor in Economics) - Penn State Schreyer Honors College
-  - AWS Certified Cloud Practicioner - Amazon Web Services
+Software Engineer II at Vanguard.
+
+- BS Computer Engineering (Minor in Economics) — Penn State Schreyer Honors College
+- AWS Certified Cloud Practitioner
 
 ---
 
 ### Jake Schultz
-**Undergraduate Student @ Penn State**
 
-- **Role:**  
-  Developer & Maintainer
+**Developer & Maintainer** · Cyber Security, Documentation & Analytics
 
-- **Focus:**  
-  Cyber Security, Documentation & Analytics
+Undergraduate at Penn State with a background in defense financial management and network security.
 
-- **Education & Experience:**
-  - BS Cyber/Electronic Operations & Warfare - Penn State
-  - Financial Management Resource Analyst - Marine Corps University
-  - Comptroller Chief - MCAS Iwakuni Comptroller's Officer
-  - Cyber Security Specialist - 3rd Network Batallion Det. Iwakuni
- 
+- BS Cyber/Electronic Operations & Warfare — Penn State
+- Financial Management Resource Analyst — Marine Corps University · Comptroller Chief — MCAS Iwakuni Comptroller's Office
+- Cyber Security Specialist — 3rd Network Battalion, Det. Iwakuni
+
 ---
 
-### Other work from our developers
+## From our developers
 
 [![fedfred](https://github-readme-stats.vercel.app/api/pin/?username=nikhilxsunder&repo=fedfred)](https://github.com/nikhilxsunder/fedfred)
+
+[![cultivars](https://github-readme-stats.vercel.app/api/pin/?username=nikhilxsunder&repo=cultivars)](https://github.com/nikhilxsunder/cultivars)
+
+---
+
+<p align="center">
+  Open to research collaboration and contributions — start with an issue on <a href="https://github.com/toros-dev/toros">toros</a> or <a href="https://github.com/toros-dev/edgar-sec">edgar-sec</a>.
+</p>
