@@ -64,19 +64,6 @@ Generative AI Engineer at Air Products.
 
 ---
 
-### Rayhan Rahman
-
-<img src="https://raw.githubusercontent.com/toros-dev/.github/main/profile/assets/1611510883839.jpeg" width="150" alt="Rayhan Rahman">
-
-**Developer & Researcher** · API Design & Development
-
-Software Engineer II at Vanguard.
-
-- BS Computer Engineering (Minor in Economics) — Penn State Schreyer Honors College
-- AWS Certified Cloud Practitioner
-
----
-
 ### Jake Schultz
 
 **Developer & Maintainer** · Cyber Security, Documentation & Analytics
