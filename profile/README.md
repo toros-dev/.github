@@ -69,7 +69,7 @@ Generative AI Engineer at Air Products.
 
 ### Jake Schultz
 
-<img src="https://raw.githubusercontent.com/toros-dev/.github/main/profile/assets/1000013383.jpeg" width="150" alt="Jake Schultz">
+<img src="https://raw.githubusercontent.com/toros-dev/.github/main/profile/assets/1000013383.JPG" width="150" alt="Jake Schultz">
 
 **Developer & Maintainer** · Cyber Security, Documentation & Analytics
 
