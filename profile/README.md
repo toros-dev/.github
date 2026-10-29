@@ -8,6 +8,7 @@
 
 ---
 
+
 **toros-dev** is a research-oriented engineering group building open-source infrastructure for financial data acquisition, representation, and analysis.
 
 Financial disclosure data is public, structured in principle, and nearly unusable in practice. Comparable facts sit buried under inconsistent XBRL taxonomies, reporting regimes shift across filings and companies, and most research code that touches this data is written once per paper and thrown away. We build the alternative: installable, typed, tested, documented packages that turn heterogeneous disclosures into reliable, reproducible, model-ready structures — a stable representation layer to compute on rather than a pile of nested filing data.
