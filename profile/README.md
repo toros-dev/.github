@@ -41,7 +41,7 @@ The stack separates concerns by layer. **Acquisition** libraries handle retrieva
 
 **Founder & Lead Developer** · Data Engineering, Design & Architecture
 
-Undergraduate researcher at the University of Miami Herbert Business School, working on state-space models, spectral decomposition, and reinforcement learning for monetary policy. Sets the architecture for the stack and maintains its acquisition and modeling ends.
+Undergraduate researcher at the University of Miami Herbert Business School
 
 - BSBA Quantitative Economics, BSBA Finance (Minor in Mathematics) — University of Miami, Herbert Business School
 - Research Fellow — Intelligent Computer Systems Research Institute (ICSRI), University of Miami
@@ -60,11 +60,15 @@ Generative AI Engineer at Air Products.
 
 - MS Artificial Intelligence and Innovation — Carnegie Mellon University
 - BS Applied Mathematics, BS Computer Science — Temple University
-- Previously: Research Assistant, Human-Computer Interaction Lab @ Temple University · AI Engineer, PS Technology
+- Research Assistant - Human-Computer Interaction Lab @ Temple University
+- AI Engineer - PS Technology
+- ORCID: [0009-0009-8157-2337](https://orcid.org/0009-0009-8157-2337)
 
 ---
 
 ### Jake Schultz
+
+<img src="https://raw.githubusercontent.com/toros-dev/.github/main/profile/assets/1000013383.jpeg" width="150" alt="Jake Schultz">
 
 **Developer & Maintainer** · Cyber Security, Documentation & Analytics
 
@@ -76,11 +80,30 @@ Undergraduate at Penn State with a background in defense financial management an
 
 ---
 
+### Charlie Tucker
+
+<img src="https://raw.githubusercontent.com/toros-dev/.github/main/profile/assets/1772584900775.png" width="150" alt="Charlie Tucker">
+
+**Developer & Researcher** · Machine Learning & Data Engineering
+
+Undergraduate researcher at the University of Miami.
+
+- BS Computer Engineering - University of Miami
+- Researcher - Bonsai Applied Computations Group
+- Author of [`Auditing Abliteration`](https://ieeexplore.ieee.org/document/11684276)
+- ORCID: [0009-0003-7328-7460](https://orcid.org/0009-0003-7328-7460)
+
+---
+
 ## From our developers
 
 [![fedfred](https://github-readme-stats.vercel.app/api/pin/?username=nikhilxsunder&repo=fedfred)](https://github.com/nikhilxsunder/fedfred)
 
 [![cultivars](https://github-readme-stats.vercel.app/api/pin/?username=nikhilxsunder&repo=cultivars)](https://github.com/nikhilxsunder/cultivars)
+
+[![playformer](https://github-readme-stats.vercel.app/api/pin/?username=charlie-tucker1&repo=playformer)](https://github.com/charlie-tucker1/playformer)
+
+[![deepc](https://github-readme-stats.vercel.app/api/pin/?username=charlie-tucker1&repo=deepc)](https://github.com/charlie-tucker1/deepc)
 
 ---
 
