@@ -83,7 +83,7 @@ Undergraduate at Penn State with a background in defense financial management an
 
 ### Charlie Tucker
 
-<img src="https://raw.githubusercontent.com/toros-dev/.github/main/profile/assets/1772584900775.png" width="150" alt="Charlie Tucker">
+<img src="https://raw.githubusercontent.com/toros-dev/.github/main/profile/assets/177258490077.png" width="150" alt="Charlie Tucker">
 
 **Developer & Researcher** · Machine Learning & Data Engineering
 
