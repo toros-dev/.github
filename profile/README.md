@@ -2,7 +2,6 @@
     <img src="https://raw.githubusercontent.com/toros-dev/.github/main/profile/assets/toros_dev_banner.png"  alt="toros-dev Logo">
 </div>
 
-<h1 align="center">toros-dev</h1>
 <h3 align="center">Open-Source Infrastructure for Financial Data</h3>
 <p align="center">
   <a href="https://github.com/toros-dev/toros"><img src="https://img.shields.io/badge/toros-in%20development-orange?style=flat" alt="toros"></a>
