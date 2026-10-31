@@ -73,11 +73,11 @@ Generative AI Engineer at Air Products.
 
 **Developer & Maintainer** · Cyber Security, Documentation & Analytics
 
-Undergraduate at Penn State with a background in defense financial management and network security.
+Undergraduate student at Penn State with a background in defense financial management and network security.
 
-- BS Cyber/Electronic Operations & Warfare — Penn State
+- BS Cybersecurity Analytics and Operations — Penn State
 - Financial Management Resource Analyst — Marine Corps University · Comptroller Chief — MCAS Iwakuni Comptroller's Office
-- Cyber Security Specialist — 3rd Network Battalion, Det. Iwakuni
+- Cyber Security Intern — 3rd Network Battalion, Det. Iwakuni
 
 ---
 
