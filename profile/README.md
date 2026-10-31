@@ -1,3 +1,7 @@
+<div align="center">
+    <img src="https://raw.githubusercontent.com/toros-dev/.github/main/profile/assets/toros_dev_banner.png"  alt="toros-dev Logo">
+</div>
+
 <h1 align="center">toros-dev</h1>
 <h3 align="center">Open-Source Infrastructure for Financial Data</h3>
 <p align="center">
