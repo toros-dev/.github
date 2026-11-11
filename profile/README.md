@@ -47,9 +47,9 @@ The stack separates concerns by layer. **Acquisition** libraries handle retrieva
 
 Undergraduate researcher at the University of Miami Herbert Business School
 
-- BSBA Quantitative Economics, BSBA Finance (Minor in Mathematics) — University of Miami, Herbert Business School
+- BSBA candidate, expected 2027 — University of Miami, Herbert Business School
 - Research Fellow — Intelligent Computer Systems Research Institute (ICSRI), University of Miami
-- Author of [`fedfred`](https://github.com/nikhilxsunder/fedfred) and [`cultivars`](https://github.com/nikhilxsunder/cultivars)
+- Author of [`fedfred`](https://github.com/nikhilxsunder/fedfred), [`cultivars`](https://github.com/nikhilxsunder/cultivars), and [`ns-sdn`](https://github.com/nikhilxsunder/ns-sdn)
 - ORCID: [0009-0007-3323-1760](https://orcid.org/0009-0007-3323-1760)
 
 ---
